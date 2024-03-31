@@ -22,14 +22,10 @@ PRODUCT_PACKAGES += \
     android.hidl.base-V1.0-java \
     android.hidl.manager-V1.0-java \
     android.system.suspend-service \
-    android.test.base \
-    android.test.mock \
-    android.test.runner \
     apexd \
     appops \
     app_process \
     appwidget \
-    atrace \
     audioserver \
     BackupRestoreConfirmation \
     bcc \
@@ -41,8 +37,6 @@ PRODUCT_PACKAGES += \
     boringssl_self_test \
     bpfloader \
     bu \
-    bugreport \
-    bugreportz \
     cgroups.json \
     charger \
     cmd \
@@ -76,9 +70,6 @@ PRODUCT_PACKAGES += \
     com.android.wifi \
     ContactsProvider \
     content \
-    CtsShimPrebuilt \
-    CtsShimPrivPrebuilt \
-    debuggerd\
     device_config \
     dmctl \
     dnsmasq \
@@ -205,13 +196,11 @@ PRODUCT_PACKAGES += \
     libvulkan \
     libwilhelm \
     linker \
-    llkd \
     lmkd \
     LocalTransport \
     locksettings \
     logcat \
     logd \
-    lpdump \
     lshal \
     mdnsd \
     mediacodec.policy \
@@ -232,7 +221,6 @@ PRODUCT_PACKAGES += \
     otacerts \
     PackageInstaller \
     passwd_system \
-    perfetto \
     ping \
     ping6 \
     pintool \
@@ -249,7 +237,6 @@ PRODUCT_PACKAGES += \
     rss_hwm_reset \
     run-as \
     sanitizer.libraries.txt \
-    schedtest \
     screencap \
     sdcard \
     secdiscard \
@@ -275,9 +262,6 @@ PRODUCT_PACKAGES += \
     tc \
     telecom \
     telephony-common \
-    tombstoned \
-    traced \
-    traced_probes \
     tune2fs \
     uiautomator \
     uinput \
@@ -364,7 +348,6 @@ endif
 
 # Host tools to install
 PRODUCT_HOST_PACKAGES += \
-    BugReport \
     adb \
     adevice \
     art-tools \
@@ -381,13 +364,11 @@ PRODUCT_HOST_PACKAGES += \
     idmap2 \
     incident_report \
     ld.mc \
-    lpdump \
     mke2fs \
     mkfs.erofs \
     resize2fs \
     sgdisk \
     sqlite3 \
-    tinyplay \
     tune2fs \
     unwind_info \
     unwind_reg_info \
