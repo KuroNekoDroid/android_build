@@ -34,7 +34,6 @@ PRODUCT_PACKAGES += \
     PartnerBookmarksProvider \
     preinstalled-packages-platform-generic-system.xml \
     Stk \
-    Tag \
 
 # OTA support
 PRODUCT_PACKAGES += \
@@ -93,9 +92,6 @@ PRODUCT_PACKAGES_DEBUG += \
     tinypcminfo \
     tinyplay \
     update_engine_client \
-
-PRODUCT_HOST_PACKAGES += \
-    tinyplay
 
 # Enable configurable audio policy
 PRODUCT_PACKAGES += \
